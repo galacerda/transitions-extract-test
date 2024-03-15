@@ -5,6 +5,7 @@ export type Transaction = {
   description: string;
 };
 
+// o array das transições
 export const TRANSACTIONS: Transaction[] = [
   {
     id: 1,

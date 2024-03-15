@@ -3,6 +3,7 @@ type TableProps = {
 };
 
 export function Table({ children }: TableProps) {
+  // renderização do componente da tabela. Nele temos um cabeçalho com 3 colunas e um corpo que recebe o children (array de TableRow)
   return (
     <div className="bg-white p-1 rounded-sm">
       <table className="border-separate border-spacing-0 w-full">

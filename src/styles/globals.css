@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* estilização global */
+
 * {
   margin: 0;
   padding: 0;
